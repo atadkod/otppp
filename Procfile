@@ -1,2 +1,2 @@
-web: python ef1a0404-bc62-4f6a-aa77-aca6ed165497.py
+web: python app.py
 
