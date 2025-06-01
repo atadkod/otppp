@@ -16,7 +16,7 @@ def whatsapp_reply():
     msg = resp.message()
 
     if incoming_msg == "hi":
-        otp_data = get_room_otp("6822fa45c3adf70d3dd83105")  # Replace with your dynamic booking ID logic
+        otp_data = get_room_otp("683ab7bdfc0c600cfbf44565")  # Replace with your dynamic booking ID logic
         if otp_data["success"]:
             msg.body(f"Your Room OTP is: {otp_data['roomOtp']}\nRoom No: {otp_data['roomNo']}")
         else:
